@@ -33,7 +33,7 @@
 [DarkCode](https://www.youtube.com/channel/UCD3KVjbb7aq2OiOffuungzw)
 
 - [第01天 - 分层社交媒体图标](#id01) ✅
-- [第02天 - 动画加载器](#id02)
+- [第02天 - 动画加载器](#id02) ✅
 - [第03天 - 进入另一个div时文本颜色改变](#id03)
 - [第04天 - 带效果的按钮](#id04)
 - [第05天 - 脉冲效果](#id05)
