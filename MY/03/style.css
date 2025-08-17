@@ -1,0 +1,54 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+}
+
+.right {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: royalblue;
+  color: skyblue;
+}
+
+.left {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background-color: skyblue;
+  color: royalblue;
+  overflow: hidden;
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  font-size: 16em;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: animate 20s linear infinite;
+}
+
+@keyframes animate {
+  0% {
+    transform: translate(0, -50%);
+  }
+  100% {
+    transform: translate(-50%, -50%);
+  }
+}
