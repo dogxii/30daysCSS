@@ -1,5 +1,9 @@
 ## 🚀 30天CSS挑战 🚀
 
+> [!NOTE]
+> 原项目: [MilenaCarecho/30diasDeCSS](https://github.com/MilenaCarecho/30diasDeCSS)
+> 本仓库为汉化及个人完成记录
+
 嘿，开发者们，过得怎么样？🖖
 
 30天CSS3挑战赛，旨在通过每天使用HTML5和CSS3制作迷你项目来帮助您提高编码技能。
