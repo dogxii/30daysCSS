@@ -6,4 +6,50 @@
 
 body {
   margin: 0;
+  background-color: #343845;
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
+  font-family: monospace;
+}
+
+.btn {
+  font-size: 2em;
+  color: pink;
+  padding: 12px;
+  border: 5px solid;
+  background: none;
+  font-family: inherit; /* 一些浏览器，表单元素默认不会继承字体样式 */
+  white-space: nowrap; /* 取消换行 */
+  cursor: pointer;
+  position: relative;
+}
+
+.btn::before,
+.btn::after {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 5px;
+  background-color: #343845;
+  transform: skewX(50deg);
+  transition: 0.4s linear;
+}
+
+.btn::before {
+  top: -5px;
+  left: 10%; /* 宽度百分比 好耶 */
+}
+
+.btn::after {
+  bottom: -5px;
+  right: 10%;
+}
+
+.btn:hover::before {
+  left: 80%;
+}
+
+.btn:hover::after {
+  right: 80%;
 }
