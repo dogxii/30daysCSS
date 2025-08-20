@@ -1,0 +1,76 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #252525;
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.flash {
+  font-size: 2em;
+  color: #484848;
+  white-space: nowrap;
+}
+
+.flash > span {
+  animation: lighting 1.4s linear infinite;
+}
+
+@keyframes lighting {
+  0% {
+    color: #484848;
+    text-shadow: none;
+  }
+  90% {
+    color: #484848;
+    text-shadow: none;
+  }
+  100% {
+    color: #fff900;
+    text-shadow:
+      0 0 7px #fff900,
+      0 0 50px #ff6c00; /* 好shadow */
+  }
+}
+
+.flash span:nth-child(1) {
+  animation-delay: 0;
+}
+
+.flash span:nth-child(2) {
+  animation-delay: 0.1s;
+}
+
+.flash span:nth-child(3) {
+  animation-delay: 0.2s;
+}
+
+.flash span:nth-child(4) {
+  animation-delay: 0.3s;
+}
+
+.flash span:nth-child(5) {
+  animation-delay: 0.4s;
+}
+
+.flash span:nth-child(6) {
+  animation-delay: 0.5s;
+}
+
+.flash span:nth-child(7) {
+  animation-delay: 0.6s;
+}
+
+.flash span:nth-child(8) {
+  animation-delay: 0.7s;
+}
+.flash span:nth-child(9) {
+  animation-delay: 0.8s;
+}
