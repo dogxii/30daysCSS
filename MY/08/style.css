@@ -22,7 +22,7 @@ body {
   animation: beating 1.4s linear infinite;
 }
 
-.heart:before {
+.heart::before {
   content: "";
   position: absolute;
   top: 0;
@@ -34,7 +34,7 @@ body {
   border-radius: 50%;
 }
 
-.heart:after {
+.heart::after {
   content: "";
   position: absolute;
   top: 0;
