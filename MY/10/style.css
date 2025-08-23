@@ -1,0 +1,41 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #79b8ff;
+}
+
+h1 {
+  font-family: "Press Start 2P", cursive;
+  font-size: 5em;
+}
+
+h1 span {
+  position: relative;
+  top: -0.12em; /* 微调位置 */
+}
+
+h1 span::before {
+  content: "";
+  animation: change-icon 4.5s infinite;
+}
+
+@keyframes change-icon {
+  0% {
+    content: "🎮";
+  }
+  50% {
+    content: "🐶";
+  }
+  100% {
+    content: "💻";
+  }
+}
