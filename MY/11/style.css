@@ -16,7 +16,7 @@ body {
 .btn {
   color: #0eb97c;
   font-size: 2em;
-  border: 2px solid;
+  border: 2px solid #0eb97c;
   background: none;
   padding: 20px 40px;
   text-transform: uppercase;
