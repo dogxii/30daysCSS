@@ -1,0 +1,33 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: sans-serif;
+  background-color: #a5b2b2;
+}
+
+h1 {
+  font-size: 7em;
+  background: url(image.jpg);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: wave 3s linear infinite;
+}
+
+@keyframes wave {
+  from {
+    background-position-x: 0;
+  }
+  to {
+    background-position-x: 260px;
+  }
+}
