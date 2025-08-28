@@ -1,0 +1,71 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: sans-serif;
+}
+
+.loading span {
+  font-size: 5em;
+  color: skyblue;
+  animation: loading 3s ease-in-out infinite;
+  position: relative;
+}
+
+.loading span:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.loading span:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.loading span:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+.loading span:nth-child(4) {
+  animation-delay: 0.6s;
+}
+
+.loading span:nth-child(5) {
+  animation-delay: 0.8s;
+}
+
+.loading span:nth-child(6) {
+  animation-delay: 0.8s;
+}
+.loading span:nth-child(7) {
+  animation-delay: 1s;
+}
+
+@keyframes loading {
+  0% {
+    color: skyblue;
+    left: -1em;
+  }
+  25% {
+    color: skyblue;
+    left: 0em;
+  }
+  50% {
+    color: rebeccapurple;
+    left: 0.5em;
+  }
+  75% {
+    color: transparent;
+    left: 0em;
+  }
+  100% {
+    color: skyblue;
+    left: -1em;
+  }
+}
