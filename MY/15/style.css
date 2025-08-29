@@ -1,0 +1,40 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: sans-serif;
+  background-color: #e9606f;
+}
+
+.float-text {
+  font-size: 5em;
+  text-align: center;
+  color: white;
+  letter-spacing: 0.2em;
+  text-shadow:
+    0 1px 0 #efefef,
+    0 2px 0 #efefef,
+    0 3px 0 #efefef,
+    0 4px 0 #efefef,
+    0 30px 5px rgba(0, 0, 0, 0.1); /* 垫几层填充内部= = */
+  animation: floating 4s linear infinite;
+  animation-direction: alternate; /* 往返动画 */
+}
+
+@keyframes floating {
+  from {
+    transform: rotate(5deg);
+  }
+
+  to {
+    transform: rotate(-5deg);
+  }
+}
