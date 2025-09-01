@@ -1,0 +1,40 @@
+:root {
+  --text-color: ghostwhite;
+  --bg-color: #044d3b;
+  --animation-duration: 2s;
+  --animation-delay-base: 0.4s;
+} /* 尝试变量 但是小练习还是有点麻烦= = */
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: var(--bg-color);
+  font-family: serif;
+}
+
+.blur-text span {
+  display: inline-flex;
+  color: var(--text-color);
+  font-size: 5em;
+  font-weight: bold;
+  transition:
+    transform var(--animation-duration),
+    filter var(--animation-duration),
+    opacity var(--animation-duration);
+  transition-delay: calc(var(--i) * var(--animation-delay-base));
+}
+
+.blur-text:hover span {
+  transform: rotate(45deg) translateY(-200px);
+  filter: blur(10px);
+  opacity: 0;
+}
