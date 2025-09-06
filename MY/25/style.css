@@ -1,0 +1,58 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #17181e;
+}
+
+.container {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  font-size: 3rem;
+  color: #575357;
+  position: relative;
+}
+
+.container li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10rem;
+  height: 10rem;
+}
+
+.container li label .icon {
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.container li label input[type="checkbox"] {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.container li label input[type="checkbox"]:checked ~ .icon {
+  color: red;
+  text-shadow: 0 0 5px;
+  animation: anime 5s linear infinite;
+}
+
+@keyframes anime {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+  100% {
+    filter: hue-rotate(360deg);
+  }
+}
