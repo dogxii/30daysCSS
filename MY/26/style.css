@@ -1,0 +1,60 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #2d2d2d;
+}
+
+.loading {
+  border-bottom: 2px solid white;
+  width: 400px;
+  height: 50px;
+  position: relative;
+  animation: rotate 2s alternate infinite;
+}
+
+.ball {
+  display: block;
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  animation: move 4s linear infinite;
+}
+
+@keyframes rotate {
+  from {
+    rotate: 10deg;
+  }
+  to {
+    rotate: -10deg;
+  }
+}
+
+/* calc() 计算距离 */
+
+@keyframes move {
+  0% {
+    /*transform: translateX(0px);*/
+    left: 0;
+  }
+  50% {
+    /*transform: translateX(0px);*/
+    left: calc(100% - 50px);
+  }
+  100% {
+    /*transform: translateX(0px);*/
+    left: 0;
+  }
+}
