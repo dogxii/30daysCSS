@@ -1,0 +1,35 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  animation: anime 8s alternate infinite;
+  text-align: center;
+  color: white;
+  font-size: 3em;
+}
+
+@keyframes anime {
+  0% {
+    background: linear-gradient(45deg, #667eea 0%, #764ba2 100%);
+  }
+  25% {
+    background: linear-gradient(45deg, #f093fb 0%, #f5576c 100%);
+  }
+  50% {
+    background: linear-gradient(45deg, #4facfe 0%, #00f2fe 100%);
+  }
+  75% {
+    background: linear-gradient(45deg, #43e97b 0%, #38f9d7 100%);
+  }
+  100% {
+    background: linear-gradient(45deg, #fa709a 0%, #fee140 100%);
+  }
+}
