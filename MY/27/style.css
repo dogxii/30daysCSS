@@ -1,0 +1,73 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #2d2d2d;
+}
+
+.phone {
+  width: 100px;
+  height: 100px;
+  background-color: #34d059;
+  border-radius: 50%;
+  position: relative;
+  color: white;
+  font-size: 60px;
+  text-align: center;
+  line-height: 100px;
+}
+
+.phone::before,
+.phone::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  border: 1px solid #34d059;
+  animation: bigger 2.5s linear infinite;
+}
+
+.phone::before {
+  animation-delay: 1.5s;
+}
+
+/* 可以使用多阶段脉冲 */
+@keyframes bigger {
+  0% {
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+  }
+  100% {
+    width: 200%;
+    height: 200%;
+    opacity: 0;
+  }
+}
+
+.phone span {
+  animation: shake 1.5s linear infinite;
+  rotate: 5deg;
+}
+
+@keyframes shake {
+  0% {
+    rotate: 5deg;
+  }
+  50% {
+    rotate: -20deg;
+  }
+  100% {
+    rotate: 5deg;
+  }
+}
