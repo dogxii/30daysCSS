@@ -1,0 +1,130 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #2d2d2d;
+}
+
+.firework {
+  position: absolute;
+}
+
+.explosion {
+  position: absolute;
+  left: -4px;
+  bottom: 0;
+  width: 4px;
+  height: 80px;
+  /*border: 1px solid red;*/
+  transform-origin: bottom;
+  overflow: hidden;
+}
+
+.explosion:nth-child(1) {
+  transform: rotate(0deg) translateY(-15px);
+}
+
+.explosion:nth-child(2) {
+  transform: rotate(30deg) translateY(-15px);
+}
+
+.explosion:nth-child(3) {
+  transform: rotate(60deg) translateY(-15px);
+}
+
+.explosion:nth-child(4) {
+  transform: rotate(90deg) translateY(-15px);
+}
+
+.explosion:nth-child(5) {
+  transform: rotate(120deg) translateY(-15px);
+}
+
+.explosion:nth-child(6) {
+  transform: rotate(150deg) translateY(-15px);
+}
+
+.explosion:nth-child(7) {
+  transform: rotate(180deg) translateY(-15px);
+}
+
+.explosion:nth-child(8) {
+  transform: rotate(210deg) translateY(-15px);
+}
+
+.explosion:nth-child(9) {
+  transform: rotate(240deg) translateY(-15px);
+}
+
+.explosion:nth-child(10) {
+  transform: rotate(270deg) translateY(-15px);
+}
+
+.explosion:nth-child(11) {
+  transform: rotate(300deg) translateY(-15px);
+}
+
+.explosion:nth-child(12) {
+  transform: rotate(330deg) translateY(-15px);
+}
+
+.explosion::before {
+  content: "";
+  background-color: yellow;
+  position: absolute;
+  width: 100%;
+  height: 0%;
+  bottom: 0;
+  animation: bigger 0.5s ease-in-out forwards;
+  /* 没有实现循环动画... */
+}
+
+@keyframes bigger {
+  0% {
+    height: 0%;
+    bottom: -30%;
+  }
+  100% {
+    height: 100%;
+    bottom: 100%;
+  }
+}
+
+#firework1 {
+  position: relative;
+  scale: 1;
+}
+
+#firework2 {
+  /*left: 200px;
+  top: 200px;*/
+  left: 20%;
+  top: 25%;
+  scale: 0.5;
+}
+
+#firework3 {
+  right: 25%;
+  bottom: 40%;
+  scale: 0.7;
+}
+
+#firework1 .explosion::before {
+  animation-delay: 0;
+}
+
+#firework2 .explosion::before {
+  animation-delay: 0.5s;
+}
+
+#firework3 .explosion::before {
+  animation-delay: 1s;
+}
