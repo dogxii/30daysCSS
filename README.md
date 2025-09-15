@@ -2,6 +2,7 @@
 
 > [!NOTE]
 > 原项目: [MilenaCarecho/30diasDeCSS](https://github.com/MilenaCarecho/30diasDeCSS)
+>
 > 本仓库为汉化及个人完成记录
 
 嘿，开发者们，过得怎么样？🖖
@@ -10,31 +11,9 @@
 
 ## 目标
 
-30天CSS3是我将从2020年7月20日开始接受的挑战（您也可以参加），旨在通过完成项目来提高我的HTML5和CSS3技能。
+30天CSS3是MilenaCarecho将从2020年7月20日开始接受的挑战（您也可以参加），旨在通过完成项目来提高我的HTML5和CSS3技能。
 
-**_如果您是新来的并想开始挑战，请随时开始，挑战没有固定的开始日期，每个人都可以完成自己的30天，我很荣幸您的参与😉_**
-
-## 一般规则
-
-- 每天做一个项目
-- 使用#30diasDeCSS标签在社交媒体（Twitter、Facebook、Linkedin等）上分享您的进度
-- 项目必须在晚上11:59之前完成
-
-## 我的规则
-
-我为自己制定了一些规则，我不想强加给任何人，但如果您愿意，可以随时效仿！
-
-- 如果我没有完成当天的项目，前5名在Twitter上[@MilenaCarecho](https://twitter.com/MilenaCarecho)指出的人将通过PicPay获得5雷亚尔（总计25雷亚尔）。为我增加一点动力！😉（在提出任何要求之前，请先检查我所在时区的时间 - 对我来说，时区是巴西利亚 - DF (GMT-3)）💸
-- 我将在[medium](https://medium.com/@MilenaCarecho)上为所有项目创建一篇教程文章
-
-喜欢这个主意吗？
-[点击这里](https://github.com/MilenaCarecho/30diasDeCSS/issues/1)参与
-
-#### 挑战的YouTube参考资料
-
-[Online Tutorials](https://www.youtube.com/channel/UCbwXnUipZsLfUckBPsC7Jog) -
-[Creative Creations](https://www.youtube.com/channel/UCOKmVksbzoKJKmtu7rlEM1A) -
-[DarkCode](https://www.youtube.com/channel/UCD3KVjbb7aq2OiOffuungzw)
+**_如果您是新来的并想开始挑战，请随时开始，挑战没有固定的开始日期，每个人都可以完成自己的30天，很荣幸您的参与😉_**
 
 - [第01天 - 分层社交媒体图标](#id01) ✅
 - [第02天 - 动画加载器](#id02) ✅
@@ -65,15 +44,13 @@
 - [第27天 - 脉冲效果](#id27) ✅
 - [第28天 - 背景颜色变化](#id28) ✅
 - [第29天 - 使用媒体查询的响应式菜单](#id29) ✅
-- [第30天 - 烟花](#id30)
+- [第30天 - 烟花](#id30) ✅
 
 ## 第01天 - 分层社交媒体图标 <a name="id01"></a>
 
 ![第01天](https://user-images.githubusercontent.com/37448340/88348819-d38d7000-cd24-11ea-99d1-39b04afb77f2.gif)
 
-[我的代码](https://github.com/MilenaCarecho/30diasDeCSS/tree/master/Desafios/dia%2001)
-
-[Medium教程]() _暂无_
+[我的代码](https://github.com/dogxii/30daysCSS/tree/master/Desafios/dia%2001)
 
 [LinkedIn帖子](https://www.linkedin.com/posts/milenacarecho_30diascss-html5-css3-activity-6690824691449413632-7vau)
 
@@ -90,9 +67,7 @@
 
 ![第02天](https://user-images.githubusercontent.com/37448340/88348825-d5573380-cd24-11ea-832c-989e091167b8.gif)
 
-[我的代码](https://github.com/MilenaCarecho/30diasDeCSS/tree/master/Desafios/dia%2002)
-
-[Medium教程]() _暂无_
+[我的代码](https://github.com/dogxii/30daysCSS/tree/master/Desafios/dia%2002)
 
 [LinkedIn帖子](https://www.linkedin.com/feed/update/urn:li:activity:6691381608261464064/)
 
@@ -102,13 +77,9 @@
 
 ## 第03天 - 进入另一个div时文本颜色改变 <a name="id03"></a>
 
-<img src="Desafios/dia 03/gif/dia03.gif">
+<img src="dogxii/dia 03/gif/dia03.gif">
 
-[我的代码](https://github.com/MilenaCarecho/30diasDeCSS/tree/master/Desafios/dia%2003)
-
-[Medium教程]() _暂无_
-
-[LinkedIn帖子]()
+[我的代码](https://github.com/dogxii/30daysCSS/tree/master/Desafios/dia%2003)
 
 ##### 提示
 
@@ -119,9 +90,7 @@
 
 ![第04天](https://user-images.githubusercontent.com/37448340/88242961-38819100-cc65-11ea-82b3-b541ff8cb3d7.gif)
 
-[我的代码](https://github.com/MilenaCarecho/30diasDeCSS/tree/master/Desafios/dia%2004)
-
-[Medium教程]() _暂无_
+[我的代码](https://github.com/dogxii/30daysCSS/tree/master/Desafios/dia%2004)
 
 [LinkedIn帖子](https://www.linkedin.com/feed/update/urn:li:activity:6692115971647303681/)
 
@@ -137,11 +106,7 @@
 
 ![第05天](https://user-images.githubusercontent.com/37448340/88354131-4d7a2500-cd36-11ea-800e-eec277f17737.gif)
 
-[我的代码](https://github.com/MilenaCarecho/30diasDeCSS/tree/master/Desafios/dia%2005)
-
-[Medium教程]() _暂无_
-
-[LinkedIn帖子]()
+[我的代码](https://github.com/dogxii/30daysCSS/tree/master/Desafios/dia%2005)
 
 ##### 我学到了什么
 
@@ -152,11 +117,7 @@
 
 ![第06天](https://user-images.githubusercontent.com/37448340/88449709-5d216880-ce1f-11ea-924b-18acde214ce9.gif)
 
-[我的代码](https://github.com/MilenaCarecho/30diasDeCSS/tree/master/Desafios/dia%2006)
-
-[Medium教程]() _暂无_
-
-[LinkedIn帖子]()
+[我的代码](https://github.com/dogxii/30daysCSS/tree/master/Desafios/dia%2006)
 
 ##### 我学到了什么
 
@@ -167,11 +128,7 @@
 
 ![第07天](https://user-images.githubusercontent.com/37448340/88490911-412fdb00-cf75-11ea-806c-c41df0d1727e.gif)
 
-[我的代码](https://github.com/MilenaCarecho/30diasDeCSS/tree/master/Desafios/Dia%2007)
-
-[Medium教程]() _暂无_
-
-[LinkedIn帖子]()
+[我的代码](https://github.com/dogxii/30daysCSS/tree/master/Desafios/Dia%2007)
 
 ##### 我学到了什么
 
@@ -182,11 +139,7 @@
 
 ![gif](https://user-images.githubusercontent.com/37448340/88534017-9c95b380-cfdd-11ea-9b54-b883fd9f9e77.gif)
 
-[我的代码](https://github.com/MilenaCarecho/30diasDeCSS/tree/master/Desafios/dia%2008)
-
-[Medium教程]() _暂无_
-
-[LinkedIn帖子]()
+[我的代码](https://github.com/dogxii/30daysCSS/tree/master/Desafios/dia%2008)
 
 ##### 我学到了什么
 
@@ -198,11 +151,7 @@
 
 ![gif (1)](https://user-images.githubusercontent.com/37448340/88670759-d76e1900-d0bb-11ea-8158-edf1cdf41b97.gif)
 
-[我的代码](https://github.com/MilenaCarecho/30diasDeCSS/tree/master/Desafios/dia%2009)
-
-[Medium教程]() _暂无_
-
-[LinkedIn帖子]()
+[我的代码](https://github.com/dogxii/30daysCSS/tree/master/Desafios/dia%2009)
 
 ##### 我学到了什么
 
@@ -216,11 +165,7 @@
 
 ![gif (2)](https://user-images.githubusercontent.com/37448340/88792562-caabfc80-d171-11ea-8c71-9756331e3ab6.gif)
 
-[我的代码](https://github.com/MilenaCarecho/30diasDeCSS/tree/master/Desafios/dia%2010)
-
-[Medium教程]() _暂无_
-
-[LinkedIn帖子]()
+[我的代码](https://github.com/dogxii/30daysCSS/tree/master/Desafios/dia%2010)
 
 ##### 我学到了什么
 
@@ -231,11 +176,7 @@
 
 ![gif (3)](https://user-images.githubusercontent.com/37448340/88915715-29897880-d23b-11ea-9f58-8fe93214d3cc.gif)
 
-[我的代码](https://github.com/MilenaCarecho/30diasDeCSS/tree/master/Desafios/dia%2011)
-
-[Medium教程]() _暂无_
-
-[LinkedIn帖子]()
+[我的代码](https://github.com/dogxii/30daysCSS/tree/master/Desafios/dia%2011)
 
 ##### 我学到了什么
 
@@ -250,11 +191,7 @@
 
 ![gif (4)](https://user-images.githubusercontent.com/37448340/89034283-05976700-d30f-11ea-983f-5b0171212a2a.gif)
 
-[我的代码](https://github.com/MilenaCarecho/30diasDeCSS/tree/master/Desafios/dia%2012)
-
-[Medium教程]() _暂无_
-
-[LinkedIn帖子]()
+[我的代码](https://github.com/dogxii/30daysCSS/tree/master/Desafios/dia%2012)
 
 ##### 我学到了什么
 
@@ -266,11 +203,7 @@
 
 ![gif (3)](https://user-images.githubusercontent.com/37448340/89111708-69b14c80-d42f-11ea-904b-1a4e5a1842e0.gif)
 
-[我的代码](https://github.com/MilenaCarecho/30diasDeCSS/tree/master/Desafios/dia%2013)
-
-[Medium教程]() _暂无_
-
-[LinkedIn帖子]()
+[我的代码](https://github.com/dogxii/30daysCSS/tree/master/Desafios/dia%2013)
 
 ##### 我学到了什么
 
@@ -281,11 +214,7 @@
 
 ![gif (4)](https://user-images.githubusercontent.com/37448340/89136987-adc64f00-d50c-11ea-8ce7-97515b31ae0e.gif)
 
-[我的代码](https://github.com/MilenaCarecho/30diasDeCSS/tree/master/Desafios/dia%2014)
-
-[Medium教程]() _暂无_
-
-[LinkedIn帖子]()
+[我的代码](https://github.com/dogxii/30daysCSS/tree/master/Desafios/dia%2014)
 
 ##### 我学到了什么
 
@@ -296,11 +225,7 @@
 
 ![gif (5)](https://user-images.githubusercontent.com/37448340/89242255-796b9500-d5d7-11ea-9e4f-4f4d499f5dc6.gif)
 
-[我的代码](https://github.com/MilenaCarecho/30diasDeCSS/tree/master/Desafios/dia%2015)
-
-[Medium教程]() _暂无_
-
-[LinkedIn帖子]()
+[我的代码](https://github.com/dogxii/30daysCSS/tree/master/Desafios/dia%2015)
 
 ##### 我学到了什么
 
@@ -311,11 +236,7 @@
 
 ![gif (6)](https://user-images.githubusercontent.com/37448340/89361050-9a4bed00-d6a0-11ea-85c0-b331c7efcbed.gif)
 
-[我的代码](https://github.com/MilenaCarecho/30diasDeCSS/tree/master/Desafios/dia%2016)
-
-[Medium教程]() _暂无_
-
-[LinkedIn帖子]()
+[我的代码](https://github.com/dogxii/30daysCSS/tree/master/Desafios/dia%2016)
 
 ##### 我学到了什么
 
@@ -328,11 +249,7 @@
 
 ![gif (7)](https://user-images.githubusercontent.com/37448340/89480128-f2e7bc80-d76a-11ea-8aaa-6987ee30a1c7.gif)
 
-[我的代码](https://github.com/MilenaCarecho/30diasDeCSS/tree/master/Desafios/dia%2017)
-
-[Medium教程]() _暂无_
-
-[LinkedIn帖子]()
+[我的代码](https://github.com/dogxii/30daysCSS/tree/master/Desafios/dia%2017)
 
 ##### 我学到了什么
 
@@ -342,11 +259,7 @@
 
 ![gif (9)](https://user-images.githubusercontent.com/37448340/89602896-2a736900-d83e-11ea-83d1-ddf210064771.gif)
 
-[我的代码](https://github.com/MilenaCarecho/30diasDeCSS/tree/master/Desafios/dia%2018)
-
-[Medium教程]() _暂无_
-
-[LinkedIn帖子]()
+[我的代码](https://github.com/dogxii/30daysCSS/tree/master/Desafios/dia%2018)
 
 ##### 我学到了什么
 
@@ -358,11 +271,7 @@
 
 ![gif (10)](https://user-images.githubusercontent.com/37448340/89700784-6b838000-d907-11ea-852b-d9b06fadd590.gif)
 
-[我的代码](https://github.com/MilenaCarecho/30diasDeCSS/tree/master/Desafios/dia%2019)
-
-[Medium教程]() _暂无_
-
-[LinkedIn帖子]()
+[我的代码](https://github.com/dogxii/30daysCSS/tree/master/Desafios/dia%2019)
 
 ##### 我学到了什么
 
@@ -375,11 +284,7 @@
 
 ![gif (13)](https://user-images.githubusercontent.com/37448340/89723734-8837ba80-d9d0-11ea-92ee-3cecf1da1647.gif)
 
-[我的代码](https://github.com/MilenaCarecho/30diasDeCSS/tree/master/Desafios/dia%2020)
-
-[Medium教程]() _暂无_
-
-[LinkedIn帖子]()
+[我的代码](https://github.com/dogxii/30daysCSS/tree/master/Desafios/dia%2020)
 
 ##### 我学到了什么
 
@@ -392,11 +297,7 @@
 
 ![gif (14)](https://user-images.githubusercontent.com/37448340/89748326-fd6ec280-da98-11ea-846f-cb7b68a1d777.gif)
 
-[我的代码](https://github.com/MilenaCarecho/30diasDeCSS/tree/master/Desafios/dia%2021)
-
-[Medium教程]() _暂无_
-
-[LinkedIn帖子]()
+[我的代码](https://github.com/dogxii/30daysCSS/tree/master/Desafios/dia%2021)
 
 ##### 我学到了什么
 
@@ -407,11 +308,7 @@
 
 ![gif (15)](https://user-images.githubusercontent.com/37448340/89851135-2a3adc80-db62-11ea-8b59-c76672f08e0b.gif)
 
-[我的代码](https://github.com/MilenaCarecho/30diasDeCSS/tree/master/Desafios/dia%2022)
-
-[Medium教程]() _暂无_
-
-[LinkedIn帖子]()
+[我的代码](https://github.com/dogxii/30daysCSS/tree/master/Desafios/dia%2022)
 
 ##### 我学到了什么
 
@@ -424,11 +321,7 @@
 
 ![gif (17)](https://user-images.githubusercontent.com/37448340/89967422-caa70480-dc27-11ea-8a1f-80adfbaea9d4.gif)
 
-[我的代码](https://github.com/MilenaCarecho/30diasDeCSS/tree/master/Desafios/dia%2023)
-
-[Medium教程]() _暂无_
-
-[LinkedIn帖子]()
+[我的代码](https://github.com/dogxii/30daysCSS/tree/master/Desafios/dia%2023)
 
 ##### 我学到了什么
 
@@ -439,11 +332,7 @@
 
 ![gif (18)](https://user-images.githubusercontent.com/37448340/90086193-3e144900-dcf0-11ea-94eb-39dbb4723e7a.gif)
 
-[我的代码](https://github.com/MilenaCarecho/30diasDeCSS/tree/master/Desafios/dia%2024)
-
-[Medium教程]() _暂无_
-
-[LinkedIn帖子]()
+[我的代码](https://github.com/dogxii/30daysCSS/tree/master/Desafios/dia%2024)
 
 ##### 我学到了什么
 
@@ -454,11 +343,7 @@
 
 ![gif (20)](https://user-images.githubusercontent.com/37448340/90207269-33bf8100-ddbc-11ea-9d30-e6cd44d2a120.gif)
 
-[我的代码](https://github.com/MilenaCarecho/30diasDeCSS/tree/master/Desafios/dia%2025)
-
-[Medium教程]() _暂无_
-
-[LinkedIn帖子]()
+[我的代码](https://github.com/dogxii/30daysCSS/tree/master/Desafios/dia%2025)
 
 ##### 我学到了什么
 
@@ -469,11 +354,7 @@
 
 ![gif (21)](https://user-images.githubusercontent.com/37448340/90303547-1e625980-de85-11ea-82f9-b23d4fed96bc.gif)
 
-[我的代码](https://github.com/MilenaCarecho/30diasDeCSS/tree/master/Desafios/dia%2026)
-
-[Medium教程]() _暂无_
-
-[LinkedIn帖子]()
+[我的代码](https://github.com/dogxii/30daysCSS/tree/master/Desafios/dia%2026)
 
 ##### 我学到了什么
 
@@ -485,11 +366,7 @@
 
 ![gif (22)](https://user-images.githubusercontent.com/37448340/90583617-fcc7e180-e1a6-11ea-904a-4cf74508b5a0.gif)
 
-[我的代码](https://github.com/MilenaCarecho/30diasDeCSS/tree/master/Desafios/dia%2027)
-
-[Medium教程]() _暂无_
-
-[LinkedIn帖子]()
+[我的代码](https://github.com/dogxii/30daysCSS/tree/master/Desafios/dia%2027)
 
 ##### 我学到了什么
 
@@ -501,11 +378,7 @@
 
 ![gif (23)](https://user-images.githubusercontent.com/37448340/90352994-61eecc00-e01b-11ea-90db-d0fabc5036ab.gif)
 
-[我的代码](https://github.com/MilenaCarecho/30diasDeCSS/tree/master/Desafios/dia%2028)
-
-[Medium教程]() _暂无_
-
-[LinkedIn帖子]()
+[我的代码](https://github.com/dogxii/30daysCSS/tree/master/Desafios/dia%2028)
 
 ##### 我学到了什么
 
@@ -515,11 +388,7 @@
 
 ![gif (24)](https://user-images.githubusercontent.com/37448340/90464853-911d4000-e0e4-11ea-9328-2b481a304913.gif)
 
-[我的代码](https://github.com/MilenaCarecho/30diasDeCSS/tree/master/Desafios/Dia%2029)
-
-[Medium教程]() _暂无_
-
-[LinkedIn帖子]()
+[我的代码](https://github.com/dogxii/30daysCSS/tree/master/Desafios/Dia%2029)
 
 ##### 我学到了什么
 
@@ -529,11 +398,7 @@
 
 ![gif (25)](https://user-images.githubusercontent.com/37448340/90583437-85924d80-e1a6-11ea-98ad-db4fbf5f0739.gif)
 
-[我的代码](https://github.com/MilenaCarecho/30diasDeCSS/tree/master/Desafios/dia%2030)
-
-[Medium教程]() _暂无_
-
-[LinkedIn帖子]()
+[我的代码](https://github.com/dogxii/30daysCSS/tree/master/Desafios/dia%2030)
 
 ##### 我学到了什么
 
