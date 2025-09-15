@@ -3,7 +3,7 @@
 > [!NOTE]
 > 原项目: [MilenaCarecho/30diasDeCSS](https://github.com/MilenaCarecho/30diasDeCSS)
 >
-> 本仓库为汉化及个人完成记录
+> 本仓库为汉化及个人完成记录，你也可以fork此项目创建你的文件夹！
 
 嘿，开发者们，过得怎么样？🖖
 
