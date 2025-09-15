@@ -77,7 +77,7 @@
 
 ## 第03天 - 进入另一个div时文本颜色改变 <a name="id03"></a>
 
-<img src="dogxii/dia 03/gif/dia03.gif">
+<img src="Desafios/dia 03/gif/dia03.gif">
 
 [我的代码](https://github.com/dogxii/30daysCSS/tree/master/Desafios/dia%2003)
 
